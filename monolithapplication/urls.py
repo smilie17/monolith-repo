@@ -19,8 +19,8 @@ from django.urls import path
 from monolithapplication import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/',views.index,name='index'),
-    path('contact/',views.contact, name='contact'),
-    path('shop/',views.shop, name='shop'),
-    path('about/',views.about,name='about'),
+    path('index/', views.index,name='index'),
+    path('contact/', views.contact, name='contact'),
+    path('shop/', views.shop, name='shop'),
+    path('about/', views.about,name='about')
 ]
